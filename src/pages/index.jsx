@@ -2,7 +2,7 @@ import { Fragment, useContext } from "react"
 import phoneModel from '../assets/images/3d-model.png'
 import lineImg from '../assets/images/line.png'
 import { ObserverContext } from "../context/observer"
-
+import ResumePdf from '../assets/aughus-bueno.pdf'
 const Home = () => {
 
 	const {
@@ -32,7 +32,7 @@ const Home = () => {
                                 </span>
 
                                 <span className="mt-5 d-block">
-                                    <a href="#" className="text-decoration-none">
+                                    <a download href={ResumePdf} className="text-decoration-none">
                                         <img src={lineImg} className="me-3 img-fluid"/> <i className="text-white">Download Resume</i>
                                     </a>
                                 </span>
