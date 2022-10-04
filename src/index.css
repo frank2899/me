@@ -1,13 +1,184 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* FONT SETUP */
+
+@font-face {
+  font-family: "Cinzel-Black";
+  src: url("./assets/fonts/cinzel/Cinzel-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel-Bold";
+  src: url("./assets/fonts/cinzel/Cinzel-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel-ExtraBold";
+  src: url("./assets/fonts/cinzel/Cinzel-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel-Medium";
+  src: url("./assets/fonts/cinzel/Cinzel-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("./assets/fonts/cinzel/Cinzel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel-SemiBold";
+  src: url("./assets/fonts/cinzel/Cinzel-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+.ff-cinzel-black{ font-family: 'Cinzel-Black'; }
+.ff-cinzel-bold{ font-family: 'Cinzel-Bold'; }
+.ff-cinzel-black{ font-family: 'Cinzel-Black'; }
+.ff-cinzel-extra-black{ font-family: 'Cinzel-ExtraBold'; }
+.ff-cinzel-medium{ font-family: 'Cinzel-Medium'; }
+.ff-cinzel{ font-family: 'Cinzel-Regular'; }
+.ff-cinzel-semibold{ font-family: 'Cinzel-SemiBold'; }
+.ff-poppins{ font-family: 'Poppins-Regular'; }
+
+/* variables for colors */
+
+:root {
+  --bluegreen-dark : #43B7A6;
+  --bluegreen : #4ABDAC;
+  --orange : #FC4A1;
+  --dirty-white : #F9F9F9;
+  --warning : #F7B733;
+  --custom-dark : #131313;
+  --custom-secondary-dark : #0E0E0E;
+  --dark-orange : #FC4A1A;
+}
+
+.bg-bluegreen-dark { background-color: var(--bluegreen-dark) !important; }
+.bg-bluegreen { background-color: var(--bluegreen) !important; }
+.bg-dirty-white { background-color: var(--dirty-white) !important; }
+.bg-warning { background-color: var(--warning) !important; }
+.bg-dark-orange { background-color: var(--dark-orange) !important; }
+.bg-custom-dark { background-color: var(--custom-dark) !important; }
+.bg-custom-secondary-dark { background-color: var(--custom-secondary-dark) !important; }
+
+.bluegreen-dark { color: var(--bluegreen-dark) !important; }
+.bluegreen { color: var(--bluegreen) !important; }
+.dirty-white { color: var(--dirty-white) !important; }
+.dark-orange { color: var(--dark-orange) !important; }
+.warning { color: var(--warning) !important; }
+.custom-dark { color: var(--custom-dark) !important; }
+.custom-secondary-dark { color: var(--custom-secondary-dark) !important; }
+.menu-color {color : #464646 !important}
+.border-bluegreen-dark { border-color: var(--bluegreen-dark) !important; }
+
+.page { 
+  height: 100vh !important;
+  z-index: 3 !important;
+  scroll-snap-align: center;
+}
+
+*{
+  font-family: 'Poppins-Regular';
+}
+
+small{
+  font-size: .9em;
+}
+
+.bg-home{
+  background-color: #101135 !important;
+}
+
+.dark-blue { 
+  color : #101135 !important;
+}
+.scrollspy {
+  width: 3px;
+  border-radius: 50px;
+  background-color: rgba(255,255,255,0.4);
+  height: 150px;
+  /* overflow: hidden; */
+}
+
+.scrollspy-value{
+  width: 100%;
+  background-color: white;
+}
+
+.container{
+  padding:0 15px;
+  z-index: 4 !important;
+}
+
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.c-3{
+  width : 4em;
+  height: 4em;
+  top : -5%;
+}
+.c-2{
+  width : 6em;
+  height: 6em;
+  left : 30%;
+}
+.c-1{
+  width : 8em;
+  height: 8em;
+}
+.img-container{
+  width: 100%;
+  max-width: 300px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  height: 100vh;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  position: absolute;
+  top: 100px;
+  right : 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: right;
 }
