@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/me/index.html/static/css/main.ce4894bd.css",
-    "main.js": "/me/index.html/static/js/main.1d7f995a.js",
-    "static/js/787.9b4dc20f.chunk.js": "/me/index.html/static/js/787.9b4dc20f.chunk.js",
-    "static/media/Poppins-Regular.ttf": "/me/index.html/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/3d-model.png": "/me/index.html/static/media/3d-model.8b666190ea2a2503aefe.png",
-    "static/media/Cinzel-ExtraBold.ttf": "/me/index.html/static/media/Cinzel-ExtraBold.b015d4ad7593c3ff2fcd.ttf",
-    "static/media/Cinzel-Black.ttf": "/me/index.html/static/media/Cinzel-Black.3e6b17df9cd99e709e74.ttf",
-    "static/media/Cinzel-Bold.ttf": "/me/index.html/static/media/Cinzel-Bold.54ac4bafc5a661a17fdf.ttf",
-    "static/media/Cinzel-SemiBold.ttf": "/me/index.html/static/media/Cinzel-SemiBold.1d330e57bf7bf47186c3.ttf",
-    "static/media/Cinzel-Medium.ttf": "/me/index.html/static/media/Cinzel-Medium.a96b1e29ea8aa7df9682.ttf",
-    "static/media/Cinzel-Regular.ttf": "/me/index.html/static/media/Cinzel-Regular.6f33f01382c3d24eecb3.ttf",
-    "static/media/aughus-bueno.pdf": "/me/index.html/static/media/aughus-bueno.6fd44482ffec8a4cb5ba.pdf",
-    "static/media/water-mark.png": "/me/index.html/static/media/water-mark.7295e6de40b530db3263.png",
-    "static/media/me.jpeg": "/me/index.html/static/media/me.18636b873ef59a45612d.jpeg",
-    "index.html": "/me/index.html/index.html",
-    "main.ce4894bd.css.map": "/me/index.html/static/css/main.ce4894bd.css.map",
-    "main.1d7f995a.js.map": "/me/index.html/static/js/main.1d7f995a.js.map",
-    "787.9b4dc20f.chunk.js.map": "/me/index.html/static/js/787.9b4dc20f.chunk.js.map"
+    "main.css": "/me/static/css/main.ea6d18ed.css",
+    "main.js": "/me/static/js/main.98ac3b23.js",
+    "static/js/787.9b4dc20f.chunk.js": "/me/static/js/787.9b4dc20f.chunk.js",
+    "static/media/Poppins-Regular.ttf": "/me/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/3d-model.png": "/me/static/media/3d-model.8b666190ea2a2503aefe.png",
+    "static/media/Cinzel-ExtraBold.ttf": "/me/static/media/Cinzel-ExtraBold.b015d4ad7593c3ff2fcd.ttf",
+    "static/media/Cinzel-Black.ttf": "/me/static/media/Cinzel-Black.3e6b17df9cd99e709e74.ttf",
+    "static/media/Cinzel-Bold.ttf": "/me/static/media/Cinzel-Bold.54ac4bafc5a661a17fdf.ttf",
+    "static/media/Cinzel-SemiBold.ttf": "/me/static/media/Cinzel-SemiBold.1d330e57bf7bf47186c3.ttf",
+    "static/media/Cinzel-Medium.ttf": "/me/static/media/Cinzel-Medium.a96b1e29ea8aa7df9682.ttf",
+    "static/media/Cinzel-Regular.ttf": "/me/static/media/Cinzel-Regular.6f33f01382c3d24eecb3.ttf",
+    "static/media/aughus-bueno.pdf": "/me/static/media/aughus-bueno.6fd44482ffec8a4cb5ba.pdf",
+    "static/media/water-mark.png": "/me/static/media/water-mark.7295e6de40b530db3263.png",
+    "static/media/me.jpeg": "/me/static/media/me.18636b873ef59a45612d.jpeg",
+    "index.html": "/me/index.html",
+    "main.ea6d18ed.css.map": "/me/static/css/main.ea6d18ed.css.map",
+    "main.98ac3b23.js.map": "/me/static/js/main.98ac3b23.js.map",
+    "787.9b4dc20f.chunk.js.map": "/me/static/js/787.9b4dc20f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce4894bd.css",
-    "static/js/main.1d7f995a.js"
+    "static/css/main.ea6d18ed.css",
+    "static/js/main.98ac3b23.js"
   ]
 }
