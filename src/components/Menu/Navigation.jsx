@@ -26,7 +26,7 @@ export const Navigation = () => (
 
 const itemIds = [
     {
-        id : "/",
+        id : "https://frank2899.github.io/me/",
         text : "Home",
         disabled : false
     },
